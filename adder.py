@@ -9,7 +9,7 @@ print ("░█▀█░█▀▄░█▀▄░█▀▀░█▀▄")
 print ("░█▀█░█░█░█░█░█▀▀░█▀▄")
 print ("░▀░▀░▀▀░░▀▀░░▀▀▀░▀░▀")
 print ("")
-print ("      by \033[1;95m@AbirHasan2005")
+print ("      by \033[1;95m@captainn_cool")
 print ("\033[1;92m")
 from telethon.sync import TelegramClient
 from telethon.tl.functions.messages import GetDialogsRequest
@@ -22,8 +22,8 @@ import traceback
 import time
 import random
 
-api_id =    #Enter Your 7 Digit Telegram API ID.
-api_hash = ''   #Enter Yor 32 Character API Hash
+api_id = 28208888
+api_hash = bfb9b8f1340167c39908bdd46fa274cf
 phone = ''   #Enter Your Mobilr Number With Country Code.
 client = TelegramClient(phone, api_id, api_hash)
 async def main():
